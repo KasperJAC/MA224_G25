@@ -23,4 +23,3 @@ def is_prime(num):
 
 print(prime_factors(315))
 print(is_prime(29))
-print(is_prime(30))
