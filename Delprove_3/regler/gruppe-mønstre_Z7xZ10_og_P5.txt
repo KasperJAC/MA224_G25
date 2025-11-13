@@ -1,0 +1,66 @@
+=== Oppsummering: Mønstre i (Z7 × Z10, +) og G = (P5, ·) ===
+
+Denne jukselappen samler typiske sannhetsutsagn (flervalg) for oppgaver som handler om
+gruppene (Z7 × Z10, +) og G=(P5, ·) (multiplikative enheter modulo 5).
+
+------------------------------------------------------------
+1) (Z7 × Z10, +)
+------------------------------------------------------------
+• STRUKTUR
+  – Elementer: par (a, b) med a ∈ Z7, b ∈ Z10
+  – Operasjon: komponentvis addisjon modulo 7 og 10
+  – Orden: |Z7 × Z10| = 7·10 = 70
+  – Abel: JA (kommutativ) – addisjon er kommutativ i begge komponenter
+  – Syk­lisk: JA (fordi gcd(7,10)=1). Isomorf til Z70
+  – Har ikke-trivielle, ekte delgrupper: JA (alle delingsordener av 70: 2,5,7,10,14,35)
+
+• TYPISKE RIKTIGE UTSAGN I FLERVALG
+  [R] For alle a,b i G: a+b = b+a  (abel)
+  [R] Gruppen er endelig
+  [R] Orden(G) = 70
+  [R] Gruppen er syklisk
+  [R] G har en ikke-triviell og ekte delgruppe
+  [F] Gruppen er uendelig
+  [F] None of the above
+
+• HUSKEREGEL
+  – Produkt av to sykliske grupper Zm × Zn er syklisk ⇔ gcd(m,n)=1.
+  – Derfor: Z7×Z10 ≅ Z70 (én generator finnes, f.eks. (1,1) ofte – men sjekk ordener).
+
+------------------------------------------------------------
+2) G = (P5, ·)  – multiplikative enheter modulo 5
+------------------------------------------------------------
+• STRUKTUR
+  – Elementer: P5 = {1,2,3,4}  (alle 1 ≤ x < 5 som er relativt primiske til 5)
+  – Operasjon: multiplikasjon modulo 5
+  – Orden: |G| = 4
+  – Abel: JA (kommutativ) – (Z/5Z)^× er abelsk
+  – Syk­lisk: JA (f.eks. 2 har ord­en 4 og genererer hele gruppa)
+  – Ikke-triviell, ekte delgruppe: JA (f.eks. ⟨4⟩ = {1,4}, orden 2)
+
+• TYPISKE RIKTIGE UTSAGN I FLERVALG
+  [R] For alle a,b i G: ab = ba  (abel)
+  [R] Orden(G) = 4
+  [R] G har en ikke-triviell og ekte delgruppe (f.eks. {1,4})
+  [F] Gruppen er uendelig
+  [F] For hvert g∈G er ⟨g⟩ ⊊ G (FEIL – 2 genererer hele G)
+  [F] None of the above
+
+• HUSKEREGEL
+  – (Z/pZ)^× er syklisk av orden p−1 for primtall p. Her p=5 → orden 4 (syklisk).
+
+------------------------------------------------------------
+3) SAMMENLIGNING OG INTUISJON
+------------------------------------------------------------
+• Begge er abelske grupper og endelige.
+• (Z7×Z10, +) er stor (70) og syklisk pga 7 og 10 er koprimiske.
+• (P5, ·) er liten (4) og syklisk (klassisk fakta for enheter modulo primtall).
+• Flervalgstemaer som ofte er SANN for begge:
+  – ab = ba (kommutativitet)
+  – har ikke-triviell og ekte delgruppe
+  – ikke uendelig
+• Ting som skiller dem:
+  – Orden: 70 vs 4
+  – I P5 er det *ikke sant* at alle generatorer gir proper undergruppe (noen genererer hele G).
+
+Slutt.

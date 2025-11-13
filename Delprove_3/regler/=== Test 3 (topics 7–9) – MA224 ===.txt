@@ -1,0 +1,85 @@
+=== Test 3 (topics 7–9) – MA224 ===
+
+------------------------------------------------------------
+PRØVE: 0 av 3___1.pdf
+------------------------------------------------------------
+REKURRENSRELASJON:
+30⋅aₙ + 4⋅aₙ₋₁ + 3⋅aₙ₋₂ = 0
+✔ Riktig(e):
+– (Ingen riktige, alle feil i denne forsøket)
+
+------------------------------------------------------------
+PRØVE: 1.33 av 3___1.pdf
+------------------------------------------------------------
+4⋅aₙ − 8⋅aₙ₋₁ + 8⋅aₙ₋₂ = 0
+✔ Riktige:
+– aₙ og bₙ er løsninger, og hvis a₀=b₀, så aₙ=bₙ for alle n≥1.
+– Hvis a₀=0, a₁=−128, a₂=−253, da kan aₙ være en løsning.
+– Hvis aₙ er en løsning, og a₀=a₁=0, da aₙ=0 for alle n≥1.
+
+------------------------------------------------------------
+PRØVE: 1.42 av 3___1.pdf
+------------------------------------------------------------
+10⋅aₙ + aₙ₋₁ + 5⋅aₙ₋₂ = 0
+✔ Riktige:
+– Hvis a₀=3, a₁=1 da kan ikke aₙ være løsning.
+– Hvis aₙ er løsning, a₀=a₁=a₂=0 ⇒ aₙ=0 ∀n≥1.
+– aₙ og bₙ er løsninger, og hvis a₀=b₀ ⇒ aₙ=bₙ ∀n≥1.
+
+------------------------------------------------------------
+PRØVE: 2 av 3___3.pdf
+------------------------------------------------------------
+12⋅aₙ + 2⋅aₙ₋₁ + 4⋅aₙ₋₂ = 0
+✔ Riktige:
+– aₙ og bₙ er løsninger, og hvis a₀=b₀ ⇒ aₙ=bₙ ∀n≥1.
+– Hvis aₙ løsning og a₀=a₁=a₂=0 ⇒ aₙ=0 ∀n≥1.
+
+------------------------------------------------------------
+PRØVE: 2 av 3___5.pdf
+------------------------------------------------------------
+4⋅aₙ − 12⋅aₙ₋₁ − 12⋅aₙ₋₂ = 0
+✔ Riktige:
+– aₙ og bₙ løsninger, og hvis a₀=b₀, a₁=b₁ ⇒ aₙ=bₙ ∀n≥1.
+– Hvis aₙ løsning, og a₀=a₁=0 ⇒ aₙ=0 ∀n≥1.
+– Hvis aₙ løsning ⇒ bₙ = 4aₙ også løsning.
+
+------------------------------------------------------------
+PRØVE: 2.08 av 3___1.pdf
+------------------------------------------------------------
+(Z₇×Z₁₀, +)
+✔ Riktige:
+– ab = ba for alle elementer.
+– Gruppen er uendelig.
+– Orden(G)=70 (ikke korrekt, men delvis poeng gitt).
+– Gruppen er ikke syklisk.
+
+------------------------------------------------------------
+PRØVE: 2.75 av 3___1.pdf
+------------------------------------------------------------
+4⋅aₙ − 16⋅aₙ₋₁ + 12⋅aₙ₋₂ = 0
+✔ Riktige:
+– Hvis a₀=a₁=a₂=0 ⇒ aₙ=0 ∀n≥1.
+– aₙ og bₙ løsninger, og hvis a₀=b₀, a₁=b₁ ⇒ aₙ=bₙ ∀n≥1.
+– Hvis aₙ løsning ⇒ bₙ=9aₙ også løsning.
+
+------------------------------------------------------------
+PRØVE: 3 av 3___5.pdf
+------------------------------------------------------------
+G = (P₅, ⋅)
+✔ Riktige:
+– For alle a,b∈G: ab=ba.
+– G har ikke-triviell og ekte delgruppe.
+– Orden(G)=4.
+
+
+
+Stort sett riktig for slike typer flervalg
+4⋅aₙ − 12⋅aₙ₋₁ − 12⋅aₙ₋₂ = 0
+
+✅ (1) Hvis aₙ og bₙ er løsninger, og a₀=b₀ (evt. a₁=b₁), så aₙ=bₙ ∀n
+✅ (2) Hvis a₀=a₁=a₂=0 ⇒ aₙ=0 ∀n
+✅ (3) Hvis aₙ løsning ⇒ bₙ = c·aₙ også løsning
+
+
+
+
